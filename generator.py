@@ -15,7 +15,7 @@ output_prefix = "data"
 output_ext = "dat"
 field_delimiter = "|"
 record_size = 2048
-size = 10000
+size = 100000
 
 print "Generating keys..."
 
