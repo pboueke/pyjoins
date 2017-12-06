@@ -248,6 +248,6 @@ Below are the time comparisons for distinct relationship sizes, in secondes, for
 Below, the times taken by the hash join, comparing the changes caused by the order of the registers at the disk. There is a small but constant gain by using a ordered file, since the next block is most likely already cached.
 
 | Relations Number | Unordered | Ordered |
-| --- | --- | --- | ---| --- | --- | 
+| --- | --- | --- | 
 | 100000 | 1.42s | 1.35s|
 | 1000000 | 14.99s | 13.47s |
